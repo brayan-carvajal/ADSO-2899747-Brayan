@@ -1,0 +1,33 @@
+** Sesión de Hoy
+
+En esta sesión se trabajó sobre la gestión de código en entornos colaborativos, centrándonos en el uso de Merge Requests (MR) y el flujo de trabajo entre distintos ambientes de desarrollo.
+Se revisaron buenas prácticas para documentar el trabajo, se explicaron los tipos de MR y se abordaron aspectos de roles y seguridad en proyectos.
+
+** Temas Abordados
+- Especificar lo realizado
+   Importancia de documentar cada paso y los resultados obtenidos.
+- Ambientes de trabajo
+   dev → Desarrollo
+   qa → Pruebas de calidad
+   staging → Preproducción
+   main → Producción
+   project → Gestión general del proyecto
+- Merge Request (MR)
+   Definición: Solicitud para integrar cambios de una rama a otra.
+   Propósito: Asegurar revisiones y control de calidad antes de fusionar cambios.
+   Flujo: Creación → Revisión → Aprobación → Integración.
+- Tipos de MR
+   Feature: Nueva funcionalidad.
+   Bugfix: Corrección de errores.
+   Hotfix: Solución urgente en producción.
+   Refactor: Mejora del código sin cambiar su funcionalidad.
+   Chore: Tareas de mantenimiento.
+   Spike: Investigación o prototipo.
+- Roles y Seguridad
+   Asignación de permisos.
+   Revisión de cambios por pares.
+   Control de acceso según responsabilidad.
+    
+** Observaciones
+- La sesión estuvo enfocada en comprender el flujo de integración continua y las herramientas colaborativas.
+- Se reforzó la importancia de una documentación clara y ordenada para facilitar el trabajo en equipo y la trazabilidad de cambios.
