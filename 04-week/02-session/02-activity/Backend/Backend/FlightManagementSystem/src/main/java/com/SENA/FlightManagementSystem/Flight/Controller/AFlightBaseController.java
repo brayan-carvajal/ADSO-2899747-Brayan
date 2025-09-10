@@ -2,10 +2,8 @@ package com.SENA.FlightManagementSystem.Flight.Controller;
 
 import java.util.List;
 import java.util.Optional;
-
 import com.SENA.FlightManagementSystem.Flight.Entity.AFlightBaseEntity;
 import com.SENA.FlightManagementSystem.Flight.IService.IFlightBaseService;
-import com.SENA.FlightManagementSystem.Flight.Service.AFlightBaseService;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.DeleteMapping;
 import org.springframework.web.bind.annotation.GetMapping;
@@ -15,15 +13,8 @@ import org.springframework.web.bind.annotation.PutMapping;
 import org.springframework.web.bind.annotation.RequestBody;
 
 import com.SENA.FlightManagementSystem.Infrastructure.DTO.ApiResponseDto;
-import com.SENA.FlightManagementSystem.Infrastructure.Entity.AInfrastructureBaseEntity;
-import com.SENA.FlightManagementSystem.Infrastructure.IService.IInfrastructureBaseService;
 
-/**
- * Abstract base controller providing common CRUD endpoints for Infrastructure entities.
- *
- * @param <T> The type of entity extending AInfrastructureBaseEntity.
- * @param <S> The type of service implementing IInfrastructureBaseService for the entity.
- */
+
 public abstract class AFlightBaseController<T extends AFlightBaseEntity, S extends IFlightBaseService<T>> {
 
     protected S service;
